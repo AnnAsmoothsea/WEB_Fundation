@@ -1,0 +1,278 @@
+			* {
+				padding: 0px;
+				margin: 0px;
+			}
+			#full-screen-slider { width:100%; height:380px; float:center; position:relative}
+			#slides { display:block; width:100%; height:380px; float:center;list-style:none; padding:0; margin:0; position:relative}
+			#slides li { display:block; width:100%; height:100%;float:center;list-style:none; padding:0; margin:0; position:absolute}
+			#slides li a { display:block; width:100%; height:100%; float:center;text-indent:-9999px}
+			#pagination { display:block; list-style:none; position:absolute; left:44%; top:360px; z-index:9900;  padding:5px 15px 5px 0; margin:0}
+			#pagination li { display:block; list-style:none; width:10px; height:10px; float:left; margin-left:15px; border-radius:5px; background:#CCC }
+			#pagination li a { display:block; width:100%; height:100%; padding:0; margin:0;  text-indent:-9999px;}
+			#pagination li.current { background:#0092CE;}
+			.head-bg{/*position: absolute;*/position: relative;top: 0px;left: 0px;height:520px;width: 100%;}
+			/*banner-picture*/
+			.b-a{ width:100%;height: 520px;position: absolute;}
+			/*banner-shadow*/
+			.shadow{ width:100%;height:12px; background:url(../image/b_bg.gif) repeat-x; overflow-y:hidden; top:0; left:0; position: relative;}
+
+			a{
+				text-decoration: none;
+			}
+			.kicker-section-width {
+				width: 1200px;
+				margin: 0 auto;
+			}
+			
+			.kicker-header-title div {
+				border: 1px solid gainsboro;
+			}
+			
+			.kicker-Search {
+				text-align: right;
+			}
+			
+			.kicker-input-search {
+				border: 1px solid gray;
+				text-indent: 8px;
+				width: 220px;
+				height: 25px;
+				line-height: 20px;
+				border-right: none;
+			}
+			
+			.kicker-input-search:focus {
+				outline: none;
+			}
+			
+			.kicker-btn-Seach {
+				height: 25px;
+				width: 25px;
+				margin-left: -5px;
+				vertical-align: bottom;
+				background-image: url(../images/searchLogo.jpg);
+				background-repeat: no-repeat;
+				border: none;
+				background-size: cover;
+			}
+			
+			.kicker-btn-Seach:focus {
+				outline: none;
+			}
+			
+			.kicker-div-float-left {
+				float: left;
+			}
+			
+			.kicker-div-float-right {
+				float: right;
+			}
+			
+			.headerLink {
+				width: 100%;
+			}
+			
+			.headerTableDiv {
+				width: 100%;
+				border-bottom: crimson 2px solid;
+			}
+			
+			.headerTableDiv>ul>li {
+				display: inline-block;
+				text-align: center;
+				width: 85px;
+				position: relative;
+			}
+			
+			.headerTableDiv>ul>li>a:hover {
+				font-size: 17px;
+				color: crimson;
+			}
+			
+			.headerTableDiv>ul>li:hover ul {
+				display: block;
+			}
+			
+			.headerTableDiv>ul>li:first-child {
+				width: 60px;
+			}
+			
+			.headerTableDiv>ul>li:last-child {
+				text-align: right;
+			}
+			
+			.headerTableDiv>ul>li>a {
+				text-decoration: none;
+				color: #636363;
+				font-size: 17px;
+			}
+			
+			.kicker-menu-hidden {
+				list-style: none;
+				width: 120px;
+				position: absolute;
+				top: 23px;
+				display: none;
+			}
+			
+			.kicker-menu-hidden>li {
+				width: 120px;
+				background-color: RGB(246, 246, 246);
+				height: 33px;
+				line-height: 33px;
+			}
+			
+			.kicker-menu-hidden>li:first-child {
+				border-bottom: solid gray 1px;
+			}
+			
+			.kicker-menu-hidden li:hover {
+				background-color: #636363;
+			}
+			
+			.kicker-menu-hidden li a:hover {
+				color: white;
+			}
+			
+			.kicker-menu-hidden li a {
+				text-decoration: none;
+				font-size: 13px;
+				color: grey;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				white-space: nowrap;
+			}
+			
+			.kicker-a-hover:hover {
+				color: crimson;
+			}
+			
+			#kicker-hover-show {
+				font-size: 22px;
+				color: white;
+				padding-right: 20px;
+				letter-spacing: 5px;
+				height: 70px;
+				line-height: 75px;
+			}
+			
+			#kicker-hover-show:hover {
+				color: crimson;
+			}
+			
+			#kicker-hover-show-next {
+				font-size: 26px;
+				color: white;
+				padding-right: 20px;
+				letter-spacing: 5px;
+			}
+			
+			#kicker-hover-show-next:hover {
+				color: crimson;
+			}
+			
+			.kicker-content-text {
+				list-style: none;
+				text-align: left;
+				font-size: 15px;
+				float: left;
+				margin-top: 25px;
+				height: 40px;
+				width: 400px;
+			}
+			
+			.kicker-content-text .kicker-fisrt {
+				width: 290px;
+				float: left;
+				color: #636363;
+				overflow: hidden;
+				text-overflow: ellipsis;
+				height: 40px;
+			}
+			.kicker-date-day{
+				font-size: 22px;display: block;text-align: center; height: 18px;
+			}
+			.kicker-date-year-month{
+				display: block;text-align: center;font-size: 14px;padding-top: 5px;
+			}
+			.kicker-content-text .kicker-last {
+				border-left: 2px solid darkgray;
+				width: 90px;
+				display: block;
+				float: right;
+				font-size: 14px;
+				text-align: right;
+				line-height: 25px;
+				color: darkgray;
+				height: 40px;
+			}
+			
+			.kicker-leftBottom {
+				width: 820px;
+			}
+			
+			.quickLink {
+				color: brown;
+				font-weight: 400;
+				font-size: 18px;
+				padding-top: 5px;
+				margin-bottom: 5px;
+				letter-spacing: 2px;
+			}
+			
+			.kicker-foot-ul {
+				list-style: none;
+			}
+			
+			.kicker-foot-ul>li {
+				display: inline-block;
+				width: 200px;
+			}
+			
+			.kicker-foot-ul>li:hover a {
+				color: brown;
+			}
+			
+			.kicker-foot-ul>li>a {
+				color: #636363;
+			}
+			.kicker-arisolesize{}
+			.kicker-content-text-all{
+				width: 840px;
+				padding: 5px;
+			}
+			.kicker-content-text-all:after{
+				content: "";
+				display: block;
+				clear: both;
+			}
+			.clear:after{
+				content: "";
+				display: block;
+				clear: both;			
+			}
+			.kicker-div-float-left-content{
+				width: 400px;
+				height: 400px;
+			}
+			.kicker-content-footer{
+				margin-top: 20px;
+			}
+			.kicker-icon{
+				width: 40px;
+				height: 40px;
+				vertical-align: middle;
+			}
+			.plus{
+				float: right;
+				vertical-align: bottom;
+			}
+			.line{
+				border: none;
+				border-top: 1px dashed #999595;
+				margin-top: 5px;
+				display: block;
+			}
+			.fade-mode{
+				z-index: 10000;
+			}

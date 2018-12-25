@@ -1,0 +1,162 @@
+
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+a{
+	text-decoration: none;
+}
+
+
+.mainHome{
+	width: 100%;
+	height: 800px;
+	margin-top: 240px;
+}
+
+.left{
+	width: 69%;
+	float: left;
+}
+
+.leftTop{
+	width: 100%;
+}
+
+.right{
+	width: 25%;
+	margin-left: 5%;
+	float: left;
+}
+
+.leftLeft,.leftRight{
+	width:400px;
+	float: left;
+	margin-top: 20px;
+		margin-left: 15px;
+}
+.leftLeft{
+	margin-left: 10px;
+}
+.icon{
+	vertical-align: middle;
+}
+
+.plus{
+	float: right;
+}
+.plus:hover{
+	cursor: pointer;
+}
+
+.line{
+	border: none;
+	border-top: 1px dashed #999595;
+	margin-top: 20px;
+	display: block;
+}
+
+.textSpan{
+	/*
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	*/
+	color: #636363;
+	display: inline-block;
+	width: 70%;
+	margin-top: 15px;
+}
+
+.date{
+	width: 20%;
+	margin-left: 10%;
+	color: #636363;
+}
+
+.imgDiv{
+	text-align: center;
+	margin-top: 50px;
+	padding: 10px 20px;
+	border: 1px solid #C8C1C1;
+	-webkit-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+
+}
+
+.rightImg{
+	margin-top: 40px;
+}
+
+
+/*轮播图*/
+.container{
+		max-width: 100%;
+		height: 150px;
+		margin: 0 auto;
+	}
+	.slide{
+		width: 100%;
+		min-height:  180px;
+		overflow: hidden;
+		position: relative;
+	}
+
+	.slide .img{
+		overflow: hidden;
+		position: absolute;
+		transition: width 0.4s,height 0.4s,top 0.4s,left 0.4s,z-index 0.4s;
+	}
+
+	.slide .img img{
+		width: calc(100% - 14px);
+		height: calc(100% - 14px);
+		margin: 7px;
+		border-radius: 9px;
+	    cursor: pointer;
+	}
+
+
+	.slide .img1{
+		width: 40%;
+		height: 40%;
+		top: 30%;
+		left: -50%;
+		z-index: 1;
+	}
+	.slide .img2{
+		width: 60%;
+		height: 60%;
+		top: 20%;
+		left: -20%;
+		z-index: 2;
+	}
+	.slide .img3{
+		width: 60%;
+		height: 80%;
+		top: 10%;
+		left: 20%;
+		z-index: 3;
+	}
+
+	.slide .img4{
+		width: 60%;
+		height: 60%;
+		top: 20%;
+		left: 60%;
+		z-index: 2;
+	}
+	.slide .img5{
+		width: 40%;
+		height: 40%;
+		top: 30%;
+		left: 110%;
+		z-index: 1;
+	}
+	
+
+	/*box-shadow: 3px 3px 5px rgba(0, 0, 0, .8);  */
